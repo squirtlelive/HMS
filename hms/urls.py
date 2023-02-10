@@ -19,7 +19,7 @@ from hospital import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
+   
 
     path('adminclick', views.adminclick_view),
     path('doctorclick', views.doctorclick_view),
