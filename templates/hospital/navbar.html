@@ -1,82 +1,62 @@
-
 <!DOCTYPE html>
-<html>
+{% load static %}
+<html lang="en">
 
 <head>
-
-
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-
-  <style>
-    /*---------------------------------------
-   Social section
------------------------------------------*/
-    footer {
-      padding: 0px 0px 0px 0px;
-      background-color: black;
+  <style type="text/css">
+    .bs-example {
       margin: 0px;
+
     }
 
-    .fa {
-      padding: 20px;
-      font-size: 23px;
-      width: 60px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-      border-radius: 50%;
-    }
-
-    .fa:hover {
-      opacity: 0.5;
-      text-decoration: none;
-    }
-
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-      margin-top: 30px;
-    }
-
-    .fa-whatsapp {
-      background: #25d366;
-      color: white;
-    }
-
-    .fa-twitter {
-      background: #55ACEE;
-      color: white;
-    }
-
-    .fa-instagram {
-      background: #125688;
-      color: white;
-    }
-
-    p {
-      text-align: center;
+    .navbar-brand {
+      font-size: 20px;
+      font-family: sans-serif;
 
     }
   </style>
 </head>
 
-<footer>
+<body>
+
+
+
+  <div class="bs-example">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background:#b73358;">
+      <a href="/" class="navbar-brand">MEDICOHOST</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <div class="navbar-nav">
+
+          
+
+
+        </div>
+
+        <div class="navbar-nav">
+          <a href="/" class="nav-item nav-link table-active">Home</a>
+          <a href="/adminclick" class="nav-item nav-link table-active ">Admin</a>
+          <a href="/doctorclick" class="nav-item nav-link  table-active">Doctor</a>
+          <a href="/patientclick" class="nav-item nav-link table-active">Patient</a>
+          <a href="/contactus" class="nav-item nav-link table-active">Contact Us</a>
+        </div>
+
+      </div>
+    </nav>
+  </div>
 
  
 
-  <br>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <div style="color:#ffffff;" class="wow fadeInUp footer-copyright">
-          <p>
-            Copyright &copy;  Developed By Vinay Kumar </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
+</body>
 
 </html>

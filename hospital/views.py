@@ -17,6 +17,18 @@ def doctorclick_view(request):
 def patient_click_view(request):
     return render(request, 'hospital/patientclick.html')
 
+def admin_signup_view(request):
+    return render(request, 'hospital/adminsignup.html')
+
+def doctor_signup_view(request):
+    return render(request, 'hospital/doctorsignup.html')
+
+def patient_signup_view(request):
+    return render(request, 'hospital/patientsignup.html')
+
+def is_admin(user):
+    return user.groups.filter(name='ADMIN').exists()
+
 
 
 # Create your views here.
