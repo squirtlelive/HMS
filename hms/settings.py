@@ -39,10 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+    'hospital',
 ]
 INSTALLED_APPS += [
     'widget_tweaks',
+]
+INSTALLED_APPS += [
+    'hospital',
 ]
 
 MIDDLEWARE = [

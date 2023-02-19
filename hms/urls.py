@@ -32,5 +32,7 @@ urlpatterns = [
     path('doctorsignup', views.doctor_signup_view),
     path('patientsignup', views.patient_signup_view),
 
+   
+
 
 ]
